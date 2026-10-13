@@ -55,11 +55,17 @@ h1 { margin: 0; font-size: clamp(2.25rem, 5vw, 4.6rem); line-height: 1.02; lette
 
 .notice, .warning { padding: 18px 20px; border-left: 5px solid var(--blue); border-radius: 12px; background: var(--blue-soft); color: #193d64; line-height: 1.65; }
 .warning { margin: 0 0 22px; border-left-color: #e8a921; background: #fff7df; color: #5d4511; }
+.email-rule { margin-top: 14px; padding: 17px 20px; display: grid; gap: 6px; border: 1px solid #b9d9f1; border-radius: 12px; background: #f7fbff; color: #193d64; line-height: 1.6; }
+.email-rule strong:first-child { color: var(--blue-dark); }
 .steps { list-style: none; margin: 28px 0; padding: 0; display: grid; gap: 16px; }
 .steps li { display: grid; grid-template-columns: 42px 1fr; gap: 16px; align-items: start; padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
 .step-number { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 12px; background: var(--navy); color: #fff; font-weight: 800; }
 .steps strong { font-size: 1.03rem; }
 .steps p { margin: 7px 0 0; color: var(--muted); line-height: 1.6; }
+.upload-example { margin: 28px 0; padding: 18px; border: 1px solid var(--line); border-radius: 16px; background: #f4f9fe; }
+.upload-example img { display: block; width: min(100%, 820px); height: auto; margin: 0 auto; border: 1px solid #d5e3ef; border-radius: 12px; background: #fff; }
+.upload-example figcaption { max-width: 820px; margin: 14px auto 0; color: var(--muted); font-size: .92rem; line-height: 1.6; }
+.upload-example figcaption strong { color: var(--text); }
 .tip-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
 .tip-grid div { padding: 18px; border-radius: 14px; background: #f2f8fd; border-top: 4px solid var(--blue); }
 .tip-grid strong, .tip-grid span { display: block; }
