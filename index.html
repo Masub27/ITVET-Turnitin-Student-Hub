@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ITVET Turnitin submission links and student upload guidance for Otto von Guericke University Magdeburg.">
+  <title>ITVET Turnitin Student Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="ITVET Turnitin Student Hub home">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span>ITVET Turnitin Hub</span>
+      </a>
+      <a class="nav-link" href="https://ovgu.turnitin.com/originality/inbox/91c13370-108d-4e01-a92b-ad757605d863" target="_blank" rel="noopener noreferrer">Open My Files <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">OTTO VON GUERICKE UNIVERSITY MAGDEBURG</p>
+        <h1>Turnitin Student Submission Hub</h1>
+        <p class="hero-copy">Find the correct ITVET class, upload your assignment, and review your submission in Turnitin.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://ovgu.turnitin.com/originality/inbox/91c13370-108d-4e01-a92b-ad757605d863" target="_blank" rel="noopener noreferrer">Open Turnitin My Files</a>
+          <a class="button button-secondary" href="#guide">View upload guide</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-shell" aria-label="Turnitin information">
+      <article class="panel is-open" id="guide">
+        <button class="panel-heading" type="button" aria-expanded="true" aria-controls="guide-content">
+          <span class="panel-number">1</span>
+          <span>
+            <span class="panel-kicker">Student guide</span>
+            <span class="panel-title">How to Upload an Assignment</span>
+          </span>
+          <span class="panel-icon" aria-hidden="true">−</span>
+        </button>
+        <div class="panel-content" id="guide-content">
+          <div class="notice"><strong>Before uploading:</strong> select the correct course and semester. Submit each assignment only once unless your lecturer asks you to resubmit.</div>
+          <ol class="steps">
+            <li><span class="step-number">1</span><div><strong>Choose your class.</strong><p>Use the Winter Semester 2026/2027 list for current courses. Use Previous Semesters only for older assignments.</p></div></li>
+            <li><span class="step-number">2</span><div><strong>Open the submission page.</strong><p>Select <em>Upload assignment</em> beside the correct class. Sign in to OVGU Turnitin when requested.</p></div></li>
+            <li><span class="step-number">3</span><div><strong>Check the assignment details.</strong><p>Confirm that the class and assignment name match your course before choosing a file.</p></div></li>
+            <li><span class="step-number">4</span><div><strong>Select your file.</strong><p>Choose the final version from your device. Use the required file type and naming convention provided by your lecturer.</p></div></li>
+            <li><span class="step-number">5</span><div><strong>Complete the upload.</strong><p>Enter a submission title if requested, continue through the confirmation screen, and wait until Turnitin confirms the upload.</p></div></li>
+            <li><span class="step-number">6</span><div><strong>Verify your submission.</strong><p>Open My Files and confirm that the correct document appears. Keep the digital receipt or confirmation for your records.</p></div></li>
+          </ol>
+          <div class="tip-grid">
+            <div><strong>Use the final file</strong><span>Open it once before uploading to confirm it is complete and readable.</span></div>
+            <div><strong>Check the deadline</strong><span>Upload early enough to resolve sign-in or file-format problems.</span></div>
+            <div><strong>Need help?</strong><span>If a class link is closed or incorrect, contact the lecturer or ITVET programme team.</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="panel" id="winter">
+        <button class="panel-heading" type="button" aria-expanded="false" aria-controls="winter-content">
+          <span class="panel-number">2</span>
+          <span>
+            <span class="panel-kicker">Current classes</span>
+            <span class="panel-title">Winter Semester 2026/2027</span>
+          </span>
+          <span class="panel-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="panel-content" id="winter-content" hidden>
+          <div class="section-intro">
+            <div><h2>Winter Semester 2026/2027 classes</h2><p>Select your course to open its official Turnitin submission page.</p></div>
+            <label class="search"><span class="sr-only">Search current classes</span><input type="search" data-search="winter" placeholder="Search current classes…"></label>
+          </div>
+          <div class="course-list" data-list="winter"></div>
+          <p class="empty-state" data-empty="winter" hidden>No matching class found.</p>
+        </div>
+      </article>
+
+      <article class="panel" id="previous">
+        <button class="panel-heading" type="button" aria-expanded="false" aria-controls="previous-content">
+          <span class="panel-number">3</span>
+          <span>
+            <span class="panel-kicker">Archive</span>
+            <span class="panel-title">Previous Semester Classes</span>
+          </span>
+          <span class="panel-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="panel-content" id="previous-content" hidden>
+          <div class="section-intro">
+            <div><h2>Previous semester classes</h2><p>Use these links only for assignments from earlier semesters.</p></div>
+            <label class="search"><span class="sr-only">Search previous classes</span><input type="search" data-search="previous" placeholder="Search previous classes…"></label>
+          </div>
+          <div class="warning"><strong>Important:</strong> older links may be closed or expired. If you cannot submit, contact the responsible lecturer before the deadline.</div>
+          <div class="course-list" data-list="previous"></div>
+          <p class="empty-state" data-empty="previous" hidden>No matching class found.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <strong>ITVET Programme</strong>
+    <span>Otto von Guericke University Magdeburg</span>
+    <span class="footer-note">Always verify the course name and semester before submitting.</span>
+  </footer>
+
+  <script src="classes.js?v=1"></script>
+  <script src="app.js?v=1"></script>
+</body>
+</html>
