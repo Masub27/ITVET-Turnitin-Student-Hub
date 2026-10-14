@@ -53,7 +53,7 @@ window.TURNITIN_CLASSES = {
       "url": "https://ovgu.turnitin.com/originality/hand-in-link?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW5hbnRJZCI6ImQ4YTZjZGY2LWMzZGMtNGZhZC05YjQyLWQ3ZTViMWYzZjAyMyIsInJlZHdvb2RJZCI6IjZhOWZhMWRkLWViYTQtNDFiYi04NzNkLWY5YWVhNDQxYzdmMSIsImV4cCI6MTgwNjQwNDcwMCwiaWF0IjoxNzkxODg5NTM0LCJqdGkiOiJkZGRlZGRmYi1lYjhmLTQ4NWQtOWM2Zi0wN2E1Y2I4ZWFiMzIiLCJ0ZW5hbnQiOiJvdmd1IiwiZm9sZGVySWQiOiIzZmRiYjQ3Yy04OTMzLTRjZGEtOTYzZi01ZjBhNmY5MGE0NmIifQ.SJjJn4IYDTK9YbV3HQRrMe8mtyfQRZbMJlCar3iOXIc"
     },
     {
-      "name": "Workshop for Methods of In-Company Training",
+      "name": "Workshop of Vocational Training",
       "url": "https://ovgu.turnitin.com/originality/hand-in-link?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW5hbnRJZCI6ImQ4YTZjZGY2LWMzZGMtNGZhZC05YjQyLWQ3ZTViMWYzZjAyMyIsInJlZHdvb2RJZCI6IjZhOWZhMWRkLWViYTQtNDFiYi04NzNkLWY5YWVhNDQxYzdmMSIsImV4cCI6MTgwNjQwNDcwMCwiaWF0IjoxNzkxODg5NDk4LCJqdGkiOiJlOTNjNDJkMC0zZWI0LTRkMWUtOTQxOS1kMGI4YmRmNTQyOWMiLCJ0ZW5hbnQiOiJvdmd1IiwiZm9sZGVySWQiOiI4NmY1MmFkNC02OWNjLTQ4NDktODU2Mi1lOWM1ODliMmEyZTcifQ.ivFBuyYR7orxAqgEw7Ukvd9GnKcahBu77-Ga0UYsadI"
     },
     {
@@ -167,7 +167,7 @@ window.TURNITIN_CLASSES = {
       "url": "https://ovgu.turnitin.com/originality/hand-in-link?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW5hbnRJZCI6ImQ4YTZjZGY2LWMzZGMtNGZhZC05YjQyLWQ3ZTViMWYzZjAyMyIsInJlZHdvb2RJZCI6IjZhOWZhMWRkLWViYTQtNDFiYi04NzNkLWY5YWVhNDQxYzdmMSIsImV4cCI6MTgwNjQxMzQwMCwiaWF0IjoxNzkxODExNzYyLCJqdGkiOiI0ZDUyY2E4OC03ZDQ2LTRhMTMtOTMyZC01NGIwZWY0ZGRkMGMiLCJ0ZW5hbnQiOiJvdmd1IiwiZm9sZGVySWQiOiI5OWVkN2FlZS1mZDg5LTQ4NWUtOWYzZC02NTY3NTNiYjAwNzMifQ.GQHMz9-KwJik6SIlra4IWRpMEd5lq6YMIEUJOBwK7Ps"
     },
     {
-      "name": "Workshop for Methods of In-Company Training",
+      "name": "Workshop of Vocational Training",
       "url": "https://ovgu.turnitin.com/originality/hand-in-link?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW5hbnRJZCI6ImQ4YTZjZGY2LWMzZGMtNGZhZC05YjQyLWQ3ZTViMWYzZjAyMyIsInJlZHdvb2RJZCI6IjZhOWZhMWRkLWViYTQtNDFiYi04NzNkLWY5YWVhNDQxYzdmMSIsImV4cCI6MTgwNjQxMzQwMCwiaWF0IjoxNzkxODExNzk4LCJqdGkiOiJlNDMyM2JmNi03Yjc0LTRiNmItODc3MS04NzE3NTc1MmJjZWEiLCJ0ZW5hbnQiOiJvdmd1IiwiZm9sZGVySWQiOiJiY2E4Nzk2Ni0yMDY3LTQyNTUtOGU1NS01MWZkYzEyMzQyMTAifQ.GRJhmfm8_s5BJm7FFcexqawhv5ZTS4IpLjUnuwqOOI8"
     },
     {
